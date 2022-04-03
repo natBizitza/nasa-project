@@ -28,7 +28,13 @@ function addNewLaunch(launch) {
       upcoming: true,
       customers: ['Zero to Mastery', 'NASA'],
       flightNumber: latestFlightNumber,
-    })
+    }) /* {
+      ...launch,
+      success: true,
+      upcoming: true,
+      customers: ['Zero to Mastery', 'NASA'],
+      flightNumber: latestFlightNumber,
+    } */
   );
 }
 
